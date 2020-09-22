@@ -4,14 +4,6 @@
 
 Install ODBC for SQLite3. To open a DB file in LibreOffice Base.
 
-# DEMO
-
-![]()
-
-# Features
-
-* sales point
-
 # Requirement
 
 * <time datetime="2020-09-22T09:58:24+0900">2020-09-22</time>
@@ -35,12 +27,9 @@ git clone https://github.com/ytyaru/Sqlite3.ODBC.LibreOffice.Base.20200922095840
 
 ```sh
 cd Sqlite3.ODBC.LibreOffice.Base.20200922095840/src
-./run.sh
+./install_libreoffice.sh
+./install_odbc.sh
 ```
-
-# Note
-
-* important point
 
 # Author
 

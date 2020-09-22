@@ -4,14 +4,6 @@
 
 　SQLite3のODBCをインストールする。LibreOfficeのBaseでDBファイルを開くために。
 
-# デモ
-
-![]()
-
-# 特徴
-
-* セールスポイント
-
 # 開発環境
 
 * <time datetime="2020-09-22T09:58:24+0900">2020-09-22</time>
@@ -29,6 +21,8 @@ Linux raspberrypi 4.19.97-v7l+ #1294 SMP Thu Jan 30 13:21:14 GMT 2020 armv7l GNU
 
 ```sh
 git clone https://github.com/ytyaru/Sqlite3.ODBC.LibreOffice.Base.20200922095840
+./install_libreoffice.sh
+./install_odbc.sh
 ```
 
 # 使い方
@@ -37,10 +31,6 @@ git clone https://github.com/ytyaru/Sqlite3.ODBC.LibreOffice.Base.20200922095840
 cd Sqlite3.ODBC.LibreOffice.Base.20200922095840/src
 ./run.sh
 ```
-
-# 注意
-
-* 注意点など
 
 # 著者
 
